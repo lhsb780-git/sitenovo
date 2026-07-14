@@ -1,1 +1,85 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(150, 144, 144);
+}
+h1 {
+    
+
+    box-shadow: 7px 7px 5px rgb(114, 105, 105);
+
+    color: white;
+    background-color: rgb(145, 103, 103);
+    padding: 10px;
+}
+p {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    
+    color: white;
+}
+h2 {
+    text-align: center;
+    background-color: rgb(119, 101, 101);
+    color: white;
+}
+ul {
+    background-color: rgb(92, 67, 67);
+    color: white;
+}
+footer{
+    background-color: rgb(116, 88, 88);
+}
+nav{
+    font: size 30px; ;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+    
+
+}
+    
+    
+
+img {
+
+margin: 100px;
+
+}
+main{
+ max-width: 90%;
+   
+}
+nav a:hover{
+
+    color: yellow;
+}
+.fotos {
+display: flex;
+justify-content: center;
+gap: 15px;
+flex-wrap: wrap;
+
+}
+.fotos img {
+    width: 150px;
+    height: auto;
+    margin: 2%;
+    border-radius: 5px;
+}
+
+
+
+
+
+    
 
